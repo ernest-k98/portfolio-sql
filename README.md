@@ -8,8 +8,8 @@ Na podstawie przykładowej bazy klientów banku przygotowałem zapytania SQL, ze
 ## 🗂 Struktura repozytorium
 
 - [`/sql`](./sql) – wszystkie zapytania SQL:
-  - [`sqlAnalizyBankowe.sql`](./sql/sqlAnalizyBankowe.sql) – główne analizy klientów banku
-  - [`widok_Klienci_segmentacja.sql`](widok_Klienci_segmentacja./sql/) – widok do segmentacji klientów wg wieku
+  - [`AnalizyBankowe.sql`](./sql/AnalizyBankowe.sql) – główne analizy klientów banku
+  - [`widok_Klienci_segmentacja.sql`](./sql/widok_Klienci_segmentacja.sql) – widok do segmentacji klientów wg wieku
 - [`/data`](./data) – wyniki zapytań zapisane do plików `.csv`
 - [`/images`](./images) – wizualizacje i wykresy w formie `.png`
 - [`README.md`](./README.md) – opis projektu
