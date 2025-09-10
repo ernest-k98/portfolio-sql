@@ -7,11 +7,10 @@
 - podstawowe przygotowanie do raportowania (eksport CSV, wykresy).
 
 ## Co zawiera repozytorium
-- `sql/analizy.sql` — wszystkie zapytania ze skomentowanymi wnioskami.
-- `sql/create_view.sql` — przykład CREATE VIEW `Klienci_segmentacja`.
+- `sql/AnalizyBankowe.sql` — wszystkie zapytania ze skomentowanymi wnioskami.
+- `sql/widok_klienci_segmentacja.sql` — przykład CREATE VIEW `Klienci_segmentacja`.
 - `data/` — przykładowe wyniki (CSV) z zapytań.
 - `images/` — wykresy i zrzuty ekranu.
-- `raport.pdf` — krótki raport z wnioskami (opcjonalnie).
 
 ## Jak odtworzyć
 1. Pobierz dataset (Bank Marketing dataset z Kaggle) i wgraj do bazy `dbo.bank`.
