@@ -1,28 +1,70 @@
-# Portfolio SQL — Bank Marketing Dataset
+# 📊 Portfolio SQL – Analiza klientów banku
 
-**Krótko:** Zestaw zapytań SQL analizujących Bank Marketing Dataset (Kaggle). Celem jest pokazanie umiejętności:
-- segmentacja klientów (wiek, zawód, stan cywilny),
-- agregacje i miary biznesowe (skuteczność kampanii, średni balans),
-- przygotowanie widoków i użycie CTE,
-- podstawowe przygotowanie do raportowania (eksport CSV, wykresy).
+Projekt pokazujący moje umiejętności w zakresie **SQL, analizy danych i wizualizacji wyników w Power BI**.  
+Na podstawie przykładowej bazy klientów banku przygotowałem zapytania SQL, zestawienia i wizualizacje, które mogą wspierać decyzje biznesowe (np. segmentacja klientów, skuteczność kampanii, analiza sald).
+
+---
+
+## 🗂 Struktura repozytorium
+
+- [`/sql`](./sql) – wszystkie zapytania SQL:
+  - [`sqlAnalizyBankowe.sql`](./sql/sqlAnalizyBankowe.sql) – główne analizy klientów banku
+  - [`widok_Klienci_segmentacja.sql`](widok_Klienci_segmentacja./sql/) – widok do segmentacji klientów wg wieku
+- [`/data`](./data) – wyniki zapytań zapisane do plików `.csv`
+- [`/images`](./images) – wizualizacje i wykresy w formie `.png`
+- [`README.md`](./README.md) – opis projektu
+
+---
+
+## 🧾 Przykładowe analizy SQL
+
+- **Segmentacja klientów wg wieku i stanu cywilnego** – widok `Klienci_segmentacja`
+- **Top 5 miesięcy z najwyższą skutecznością kampanii**
+- **Analiza zawodów i średnich sald**
+- **Porównanie skuteczności kampanii wg zawodu**
+- **Skuteczność kampanii w czasie (miesiąc po miesiącu)**
+
+👉 [Pełny plik z zapytaniami SQL](./sql/sqlAnalizyBankowe.sql)
+
+---
+
+## 📊 Wizualizacje
+
+Przykładowe wykresy stworzone na podstawie danych:
+
+- **Top 5 miesięcy – liczba klientów z lokatą**  
+  ![Top 5 miesięcy](./images/wykrestop5miesiecy.png)
+
+- **Skuteczność kampanii w ujęciu rocznym (liniowy)**  
+  ![Skuteczność kampanii](./images/lokaty_przekroj_roku_liniowy.png)
+
+- **Mini raport z segmentacją klientów (Power BI)**  
+  ![Raport Power BI](./images/miniraportfull.png)
+
+---
+
+## 📌 Wnioski biznesowe
+
+- Najbardziej skłonni do zakładania lokat są **studenci (74,72%)** oraz osoby w wieku **26–35 lat, single**.
+- Najlepsze miesiące na prowadzenie kampanii to okres **kwiecień–sierpień**.
+- Średni balans klientów z lokatą jest wyższy niż u klientów bez lokaty, co wskazuje na atrakcyjniejszą grupę docelową.
+- Segmentacja klientów wg wieku i stanu cywilnego pozwala lepiej personalizować kampanie.
+
+---
+
+## ⚙️ Technologie
+
+- **SQL Server** – tworzenie zapytań i widoków
+- **Power BI** – wizualizacje danych, dashboard
+- **Excel** – dodatkowa analiza tabelaryczna
+- **GitHub** – dokumentacja i wersjonowanie
+
+---
+
+## 👤 Kontakt
+
+Autor: Ernest K.  
+🔗 [LinkedIn](https://www.linkedin.com/in/ernest-k98/)  
+📧 e-mail: (ernest.krzysik@onet.pl)  
 
 
-## Co zawiera repozytorium
-- `sql/AnalizyBankowe.sql` — wszystkie zapytania ze skomentowanymi wnioskami.
-- `sql/widok_klienci_segmentacja.sql` — przykład CREATE VIEW `Klienci_segmentacja`.
-- `data/` — przykładowe wyniki (CSV) z zapytań.
-- `images/` — wykresy i zrzuty ekranu mini-raportu.
-
-## Jak odtworzyć
-1. Pobierz dataset (Bank Marketing dataset z Kaggle) i wgraj do bazy `dbo.bank`.
-2. Wykonaj skrypty z `sql/` w SQL Server (SSMS/Azure Data Studio).
-3. Wyniki możesz eksportować do CSV i użyć Power BI / Excel do wizualizacji.
-
-## Najważniejsze wnioski (skrót)
-- Najwyższa skuteczność kampanii: _studenci_ (74,72%).
-- Najlepsze miesiące na kampanie: _Kwiecień–Sierpień_.
-- Grupa o najwyższym średnim saldzie częściej zakłada lokaty.
-- Single w wieku 26-35 to grupa, która najchętniej zakłada lokaty.
-
-## Kontakt
-[Ernest Krzysik] — www.linkedin.com/in/ernest-krzysik-55257b167 / ernest.krzysik@onet.pl
