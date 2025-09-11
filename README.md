@@ -42,7 +42,19 @@ Przykładowe wykresy stworzone na podstawie danych:
   ![Raport Power BI](./images/miniraportfull.png)
 
 ---
+### Dashboard: struktura salda wg wieku
 
+Poniżej przykładowa analiza klientów w podziale na saldo i przedział wiekowy.  
+Widok zawiera:
+- macierz krzyżową (saldo × przedział wiekowy),
+- wykres kołowy pokazujący strukturę klientów wg salda,
+- fragmentatory umożliwiające interaktywną analizę.
+
+![Dashboard saldo-wiek](./images/wiek_vs_przedzial_salda.png)
+
+---
+
+👉 Wniosek: większość klientów posiada saldo poniżej 1000, przy czym największą część tej grupy stanowią osoby w wieku 26–45 lat.
 ## 📌 Wnioski biznesowe
 
 - Najbardziej skłonni do zakładania lokat są **studenci (74,72%)** oraz osoby w wieku **26–35 lat, single**.
