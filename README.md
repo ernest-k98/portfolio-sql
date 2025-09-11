@@ -24,7 +24,7 @@ Na podstawie przykładowej bazy klientów banku przygotowałem zapytania SQL, ze
 - **Porównanie skuteczności kampanii wg zawodu**
 - **Skuteczność kampanii w czasie (miesiąc po miesiącu)**
 
-👉 [Pełny plik z zapytaniami SQL](./sql/sqlAnalizyBankowe.sql)
+👉 [Pełny plik z zapytaniami SQL](./sql/AnalizyBankowe.sql)
 
 ---
 
