@@ -35,14 +35,20 @@ Przykładowe wykresy stworzone na podstawie danych:
 - **Top 5 miesięcy – liczba klientów z lokatą**  
   ![Top 5 miesięcy](./images/wykrestop5miesiecy.png)
 
+👉 Wniosek: najwięcej lokat zakładano w maju i lipcu, co sugeruje sezonowe wzrosty skuteczności kampanii.
+
 - **Skuteczność kampanii w ujęciu rocznym (liniowy)**  
   ![Skuteczność kampanii](./images/lokaty_przekroj_roku_liniowy.png)
+
+    👉 Wniosek: widać wyraźny szczyt skuteczności kampanii w maju oraz spadek pod koniec roku.
 
 - **Mini raport z segmentacją klientów (Power BI)**  
   ![Raport Power BI](./images/miniraportfull.png)
 
+   👉 Wniosek: single w wieku 26–35 lat to segment o największej skłonności do zakładania lokat.
+
 ---
-### Dashboard: struktura salda wg wieku
+## 📈 Dashboard: struktura salda wg wieku
 
 Poniżej przykładowa analiza klientów w podziale na saldo i przedział wiekowy.  
 Widok zawiera:
@@ -52,9 +58,10 @@ Widok zawiera:
 
 ![Dashboard saldo-wiek](./images/wiek_vs_przedzial_salda.png)
 
+👉 Wniosek: większość klientów posiada saldo poniżej 1000, przy czym największą część tej grupy stanowią osoby w wieku 26–45 lat.
+
 ---
 
-👉 Wniosek: większość klientów posiada saldo poniżej 1000, przy czym największą część tej grupy stanowią osoby w wieku 26–45 lat.
 ## 📌 Wnioski biznesowe
 
 - Najbardziej skłonni do zakładania lokat są **studenci (74,72%)** oraz osoby w wieku **26–35 lat, single**.
