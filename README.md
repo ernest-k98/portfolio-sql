@@ -40,12 +40,12 @@ Przykładowe wykresy stworzone na podstawie danych:
 - **Skuteczność kampanii w ujęciu rocznym (liniowy)**  
   ![Skuteczność kampanii](./images/lokaty_przekroj_roku_liniowy.png)
 
-    👉 Wniosek: widać wyraźny szczyt skuteczności kampanii w maju oraz spadek pod koniec roku.
+👉 Wniosek: widać wyraźny szczyt skuteczności kampanii w maju oraz spadek pod koniec roku.
 
 - **Mini raport z segmentacją klientów (Power BI)**  
   ![Raport Power BI](./images/miniraportfull.png)
 
-   👉 Wniosek: single w wieku 26–35 lat to segment o największej skłonności do zakładania lokat.
+👉 Wniosek: single w wieku 26–35 lat to segment o największej skłonności do zakładania lokat.
 
 ---
 ## 📈 Dashboard: struktura salda wg wieku
